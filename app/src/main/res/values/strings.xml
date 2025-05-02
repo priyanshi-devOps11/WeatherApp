@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Weather App</string>
+
+    <!-- Input hint -->
+    <string name="hint_enter_city">Enter city name</string>
+
+    <!-- Button text -->
+    <string name="btn_get_weather">Get Weather</string>
+
+    <!-- Error messages -->
+    <string name="error_empty_city">Please enter a city name</string>
+    <string name="error_city_not_found">City not found!</string>
+    <string name="error_fetch_failed">Failed to get data</string>
+
+    <!-- Labels -->
+    <string name="label_temperature">Temperature</string>
+    <string name="label_humidity">Humidity</string>
+    <string name="label_condition">Condition</string>
+    <string name="label_today">Today</string>
+
+    <!-- Placeholder -->
+    <string name="hello_blank_fragment">Hello from WeatherFragment</string>
+</resources>

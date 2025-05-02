@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center">
+
+    <!-- EditText for location input -->
+    <!-- Reference to the new drawable -->
+    <EditText
+        android:id="@+id/locationInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Location"
+        android:inputType="text"
+        android:padding="12dp"
+        android:background="@drawable/edittext_background"
+        android:textColor="#000000"
+        android:textSize="16sp"/>
+
+
+    <!-- Button to fetch the location -->
+    <!-- Reference to the new color -->
+    <Button
+        android:id="@+id/fetchLocationButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="Fetch Location"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="16dp"
+        android:background="@color/colorPrimary"
+        android:padding="10dp"
+        android:textSize="16sp"/>
+
+
+    <!-- TextView to display the location -->
+    <TextView
+        android:id="@+id/locationTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Location Info"
+        android:textSize="18sp"
+        android:textColor="#000000"
+        android:layout_marginTop="16dp"
+        android:gravity="center"/>
+
+</LinearLayout>

@@ -1,0 +1,19 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base Theme -->
+    <style name="Base.Theme.WeatherApp" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Status bar appearance -->
+        <item name="android:windowLightStatusBar">true</item> <!-- Light icons on dark status bar -->
+        <item name="android:statusBarColor">@color/cultured</item> <!-- Set status bar color -->
+
+        <!-- Optionally define your custom colors here -->
+        <!--
+        <item name="colorPrimary">@color/my_primary</item>
+        <item name="colorOnPrimary">@color/my_on_primary</item>
+        <item name="colorSecondary">@color/my_secondary</item>
+        -->
+    </style>
+
+    <!-- App Theme -->
+    <style name="Theme.WeatherApp" parent="Base.Theme.WeatherApp" />
+</resources>
