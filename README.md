@@ -1,19 +1,16 @@
-# WeatherApp ☁️🌦️
+# weather_app
 
-An Android weather application built using Java and XML that fetches and displays real-time weather data.  
-This app uses fragments for modular UI, and integrates a weather API to provide up-to-date information based on location.
+A new Flutter project.
 
-## 🔧 Features
+## Getting Started
 
-- 🌍 Current location weather
-- 🔍 Search weather by city
-- 📱 Clean and responsive UI with fragments
-- 📡 Real-time data from a weather API
+This project is a starting point for a Flutter application.
 
-## 🚀 Tech Stack
+A few resources to get you started if this is your first Flutter project:
 
-- Java
-- Android SDK
-- XML Layouts
-- Fragments & Navigation Component
-- Retrofit or Volley (for API calls)
+- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
+- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+
+For help getting started with Flutter development, view the
+[online documentation](https://docs.flutter.dev/), which offers tutorials,
+samples, guidance on mobile development, and a full API reference.
