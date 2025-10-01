@@ -3,6 +3,24 @@ import 'weather_service.dart';
 import 'weather_home_page.dart';
 import 'dart:ui';
 
+void main() {
+  runApp(const MyApp());
+}
+
+class MyApp extends StatelessWidget {
+  const MyApp({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      debugShowCheckedModeBanner: false,
+      title: 'Weather App',
+      theme: ThemeData(primarySwatch: Colors.blue),
+      home: const WeatherHomePage(),
+    );
+  }
+}
+
 class WeatherHomePage extends StatefulWidget {
   const WeatherHomePage({super.key});
 
