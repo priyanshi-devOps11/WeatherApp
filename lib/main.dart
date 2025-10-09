@@ -20,7 +20,6 @@ class MyApp extends StatelessWidget {
     );
   }
 }
-
 class WeatherHomePage extends StatefulWidget {
   const WeatherHomePage({super.key});
 
