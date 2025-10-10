@@ -143,7 +143,6 @@ class ForecastData {
     required this.icon,
     required this.humidity,
   });
-
   factory ForecastData.fromJson(Map<String, dynamic> json) {
     return ForecastData(
       dateTime: DateTime.fromMillisecondsSinceEpoch((json['dt'] ?? 0) * 1000),
