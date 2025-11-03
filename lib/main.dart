@@ -621,10 +621,6 @@ class _WeatherHomePageState extends State<WeatherHomePage>
     }
   }
 
-
-
-
-
   IconData _getWeatherIconForCondition(String description) {
     final condition = description.toLowerCase();
     if (condition.contains('clear')) return Icons.wb_sunny;
